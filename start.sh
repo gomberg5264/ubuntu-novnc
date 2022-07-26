@@ -2,7 +2,7 @@
 
 if [ "$vncpassword" = "" ]
 then
-    vncpassword="insecure"
+    vncpassword="5264"
 fi
 
 printf "$vncpassword\n$vncpassword\n\n" | vncserver :1
